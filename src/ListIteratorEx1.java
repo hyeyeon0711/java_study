@@ -13,11 +13,13 @@ public class ListIteratorEx1 {
 
         ListIterator it = list.listIterator();
 
+        //순방향으로 읽어옴
         while(it.hasNext()) {
             System.out.print(it.next());
         }
         System.out.println();
 
+        //역방향으로 읽어옴
         while(it.hasPrevious()) {
             System.out.print(it.previous());
         }
